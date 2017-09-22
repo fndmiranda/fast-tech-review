@@ -177,6 +177,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * 3rd Party Service Providers...
+         */
+        Nwidart\Modules\LaravelModulesServiceProvider::class,
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
+
     ],
 
     /*
@@ -225,6 +231,11 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        /*
+         * 3rd Party Class Aliases...
+         */
+        'Module' => Nwidart\Modules\Facades\Module::class,
 
     ],
 

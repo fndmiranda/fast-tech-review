@@ -1,0 +1,15 @@
+{
+    "name": "fndmiranda/beer",
+    "description": "",
+    "authors": [
+        {
+            "name": "Fernando Miranda",
+            "email": "fndmiranda@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Beer\\": ""
+        }
+    }
+}
